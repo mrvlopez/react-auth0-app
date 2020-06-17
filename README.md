@@ -4,9 +4,13 @@ HOW TO USE:
   1- Login to Auth0, create a new React SPA, write down your domain and clientID (find them in Settings)
   
   2- Make sure these are your settings for your SPA:
+  
        Application Login URI:  https://127.0.0.1:3000
+       
        Allowed Callback URLs:  http://localhost:3000
+       
        Allowed Logout URLs:  http://localhost:3000
+       
        Allowed Web Origins:  http://localhost:3000
      
   3- Inside 'src' folder create a new file called 'auth_config.json'
